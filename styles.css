@@ -85,3 +85,19 @@
     width: 300px;
     border-radius: 180px;
 }
+
+.mid-detail-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mid-detail {
+    display: flex;
+    width: 900px;
+    justify-content: center;
+}
+
+.mid-detail .title {
+    font-size: 30px;
+    padding: 20px 200px;
+}
