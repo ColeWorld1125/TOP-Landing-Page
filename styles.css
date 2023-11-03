@@ -168,3 +168,39 @@
     justify-content: flex-end;
     margin-top: 20px;
 }
+
+.bottom-detail-container {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    padding: 150px;
+    color: white;
+}
+
+.bottom-details {
+    display: flex;
+    width: 800px;
+    background-color: rgb(119, 34, 189);
+    justify-content: space-between;
+    padding: 80px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.bottom-details .title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bottom-details .bottom-but button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 4, 78);
+    color: white;
+}
+
+.bottom-details .bottom-but button:hover {
+    background-color: white;
+    color: rgb(45, 4, 78);
+}
