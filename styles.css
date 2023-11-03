@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    width: 900px;
+}
+
+.header {
+    display:flex;
+    width: 900px;
+    background-color: rgb(47, 3, 75);
+    color: white;
+    padding: 0 200px;
+    flex-direction: column;
+}
+
+.nav-bar {
+    display: flex;
+    border: 1px solid;
+    
+}
+
+.nav-bar p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-bar .links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-img img {
+    width: 200px;
+}
