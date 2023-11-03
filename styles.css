@@ -37,6 +37,7 @@
     color: white;
     display: flex;
     padding: 20px 200px;
+    padding-bottom: 100px;
     justify-content: space-between;
 }
 
@@ -95,9 +96,54 @@
     display: flex;
     width: 900px;
     justify-content: center;
+    flex-direction: column;
 }
 
 .mid-detail .title {
+    display: flex;
     font-size: 30px;
-    padding: 20px 200px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.tiles-container {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.tiles {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.tile-one, .tile-two, .tile-three, .tile-four {
+    border: 1px solid rgb(0, 0, 0);
+    width: 250px;
+    border-radius: 30px;
+    border-width: 3px;
+}
+
+.tile-desc-container {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.tile-descs {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.desc-one, .desc-two, .desc-three, .desc-four {
+    width: 250px;
+    font-style: italic;
+    text-align: center;
 }
