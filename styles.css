@@ -5,35 +5,83 @@
 }
 
 .header-container {
+    background-color: rgb(45, 4, 78);
+    color: white;
     display: flex;
-    width: 900px;
+    padding: 20px 200px;
+    justify-content: center;
 }
 
 .header {
-    display:flex;
-    width: 900px;
-    background-color: rgb(47, 3, 75);
-    color: white;
-    padding: 0 200px;
-    flex-direction: column;
-}
-
-.nav-bar {
     display: flex;
-    border: 1px solid;
-    
+    align-items: center;
+    width: 900px;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
-.nav-bar p {
+.header .logo {
+    display: flex;
     font-size: 20px;
     font-weight: bold;
 }
 
-.nav-bar .links {
+.header .links {
     display: flex;
     justify-content: flex-end;
+    gap: 20px;
 }
 
-.header-img img {
-    width: 200px;
+.top-detail-container {
+    background-color: rgb(45, 4, 78);
+    color: white;
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-between;
+}
+
+.top-details {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    flex-direction: column;
+}
+
+.top-details .title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.top-details .desc {
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.top-details .contacts-but button {
+    padding: 8px 20px;
+    background-color: rgb(119, 34, 189);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.top-details .contacts-but button:hover {
+    background-color: white;
+    color: rgb(119, 34, 189);
+}
+
+.top-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.top-img {
+    display: flex;    
+}
+
+.top-img img {
+    width: 300px;
+    border-radius: 180px;
 }
